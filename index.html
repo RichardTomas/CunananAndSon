@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/b7e97b046d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cunanan & Sons</title>
+</head>
+
+<body id="home">
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Cunanan & Son</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Display -->
+    <section id="about" class="section-a">
+        <div class="container">
+            <div>
+                <h1>Home Improvement Services</h1>
+                <p>Serving San Diego for more than 15 years, we offer a host of services from renovation to simple
+                    repairs for your home. Call us for a free estimate.</p>
+                <a href="#" class="btn">619-565-8867</a>
+            </div>
+            <img src="img/tools.jpg" alt="Tools">
+        </div>
+    </section>
+    <!-- Overlay -->
+    <section id="services" class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Budget-friendly, professional service</h3>
+                <h2>What is your next home improvement project?</h2>
+                <ul>
+                    <li>Kitchen and Bath Renovation</li>
+                    <li>Painting</li>
+                    <li>Electrical</li>
+                    <li>Flooring Installation</li>
+                    <li>Plumbing</li>
+                    <li>Room Remodeling</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/closet1.jpg" class="big">
+                <img src="img/closet1.jpg" alt="closet1">
+            </a>
+            <a href="img/kitchen1.JPG" class="big">
+                <img src="img/kitchen1.JPG" alt="kitchen1">
+            </a>
+            <a href="img/vanity1.jpg" class="big">
+                <img src="img/vanity1.jpg" alt="vanity1">
+            </a>
+            <a href="img/toilet1.jpg" class="big">
+                <img src="img/toilet1.jpg" alt="toilet1">
+            </a>
+            <a href="img/kitchen2.jpg" class="big">
+                <img src="img/kitchen2.jpg" alt="kitchen2">
+            </a>
+            <a href="img/shower2.jpg" class="big">
+                <img src="img/shower2.jpg" alt="shower2">
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="contact" class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Want to see more of our projects? Connect with us.</h2>
+                <a href="http://twitter.com">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="http://instagram.com">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Call for a free estimate:</h3>
+                <h2>619-565-8867</h2>
+                <p>Or leave your email address and we will contact you</p>
+                <form class="mt-1" name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap"><input type="email" name="email" id="email" size="40"
+                                class="form-control" placeholder="E-mail" /></span><button type="submit" value="Submit"
+                            class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+
+</body>
+
+
+</html>
